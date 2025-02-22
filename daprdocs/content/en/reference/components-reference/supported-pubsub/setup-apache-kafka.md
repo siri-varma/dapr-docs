@@ -459,8 +459,8 @@ Apache Kafka supports the following bulk metadata options:
 
 | Configuration | Default |
 |----------|---------|
-| `maxBulkAwaitDurationMs` | `10000` (10s) |
-| `maxBulkSubCount` | `80` |
+| `maxAwaitDurationMs` | `10000` (10s) |
+| `maxMessagesCount` | `80` |
 
 ## Per-call metadata fields
 
