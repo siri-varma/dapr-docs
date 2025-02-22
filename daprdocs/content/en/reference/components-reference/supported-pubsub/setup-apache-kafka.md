@@ -540,6 +540,9 @@ app.include_router(router)
 ```
 
 {{% /codetab %}}
+
+{{< /tabs >}}
+
 ## Receiving message headers with special characters
 
 The consumer application may be required to receive message headers that include special characters, which may cause HTTP protocol validation errors. 
